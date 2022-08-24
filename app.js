@@ -29,29 +29,36 @@ resetButton.addEventListener("click", () => {
 	tens = "00";
 	seconds = "00";
     milliseconds = "00";
+    outputMinute.innerHTML = tens;
 	outputSeconds.innerHTML = seconds;
-	outputMinute.innerHTML = tens;
     outputMilliseconds.innerHTML = milliseconds;
 });
 
 function startStopWatch() {
-    tens++;
-    if(tens <=9) {
-        outputMilliseconds.innerHTML = "0" + tens;
+    milliseconds++;
+    if(milliseconds <=9) {
+        outputMilliseconds.innerHTML = "0" + milliseconds;
     }
 
-    if(tens > 9) {
-        outputMilliseconds.innerHTML = tens;
+    if(milliseconds > 9) {
+        outputMilliseconds.innerHTML = milliseconds;
     }
 
-    if(tens>99) {
+    if(milliseconds>99) {
         seconds++;
         outputSeconds.innerHTML = "0" + seconds;
-        tens = 0
-        outputMilliseconds.innerHTML = "0" + tens;
+        milliseconds = 0
+        outputMilliseconds.innerHTML = "0" + milliseconds;
     }
 
     if(seconds > 9) {
         outputSeconds.innerHTML = seconds;
+    }
+
+    if (seconds > 59) {
+        minute++;
+        outputMinute.innerHTML = "0" + minute;
+        seconds = 0;
+        outputSeconds.innerHTML = "0" + seconds;
     }
 }
