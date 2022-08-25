@@ -40,6 +40,23 @@ button {
     border-radius: 20px;
 }
 
+a:visited {
+    color: rgb(41, 207, 193);
+}
+
+a:hover {
+    cursor:pointer;
+}
+
+a {
+    color: rgb(41, 207, 193);
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
 .time {
     margin-bottom: 20px;
 }
