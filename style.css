@@ -1,68 +1,66 @@
 body {
-    background-color: black;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    min-height: 100vh;
-    font-family: 'Aubrey', cursive;
-    color: rgb(41, 207, 193);
+	background-color: black;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	min-height: 100vh;
+	font-family: "Aubrey", cursive;
+	color: rgb(41, 207, 193);
 }
 
-h1 { 
-    font-size: 30px;
-    text-decoration: underline;
-    display: flex;
-    justify-content: center;
+h1 {
+	font-size: 30px;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
 }
 
 span {
-    
-    font-size: 25px;
-    font-weight: 600;
+	font-size: 25px;
+	font-weight: 600;
 }
 
 div {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 button {
-    width: 80px;
-    height: 40px;
-    margin: 0px 10px 0px 10px;
-    font-family: 'Aubrey', cursive;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: rgb(41, 207, 193);
-    border: 1px solid rgb(41, 207, 193);
-    border-radius: 20px;
-    color: black;
+	width: 80px;
+	height: 40px;
+	margin: 0px 10px 0px 10px;
+	font-family: "Aubrey", cursive;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgb(41, 207, 193);
+	border: 1px solid rgb(41, 207, 193);
+	border-radius: 20px;
+	color: black;
 }
 
 a:visited {
-    color: rgb(41, 207, 193);
+	color: rgb(41, 207, 193);
 }
 
 a:hover {
-    cursor:pointer;
+	cursor: pointer;
 }
 
 a {
-    color: rgb(41, 207, 193);
-    text-decoration: none;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
+	color: rgb(41, 207, 193);
+	text-decoration: none;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
 }
 
 .time {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .time span {
-    padding: 5px;
+	padding: 5px;
 }
-
