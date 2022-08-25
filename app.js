@@ -26,7 +26,7 @@ stopButton.addEventListener("click", () => {
 
 resetButton.addEventListener("click", () => {
 	clearInterval(Interval);
-	tens = "00";
+	minute = "00";
 	seconds = "00";
     milliseconds = "00";
     outputMinute.innerHTML = tens;

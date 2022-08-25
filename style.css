@@ -40,6 +40,10 @@ button {
 	color: black;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 a:visited {
 	color: rgb(41, 207, 193);
 }
