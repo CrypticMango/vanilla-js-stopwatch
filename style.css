@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     min-height: 100vh;
     font-family: 'Aubrey', cursive;
-    color: white;
+    color: rgb(41, 207, 193);
 }
 
 h1 { 
@@ -29,14 +29,22 @@ div {
 }
 
 button {
-    width: 70px;
+    width: 80px;
+    height: 40px;
     margin: 0px 10px 0px 10px;
     font-family: 'Aubrey', cursive;
     font-weight: bold;
     font-size: 20px;
+    background-color: rgb(41, 207, 193);
+    border: 1px solid rgb(41, 207, 193);
+    border-radius: 20px;
 }
 
 .time {
     margin-bottom: 20px;
+}
+
+.time span {
+    padding: 5px;
 }
 
